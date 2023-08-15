@@ -1,0 +1,14 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 300px;
+  /* max-width: 100px; */
+  justify-content: center;
+}
+
+.container > div:first-child {
+  margin-left: auto;
+  align-self: flex-end;
+}
